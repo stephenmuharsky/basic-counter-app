@@ -1,0 +1,74 @@
+body{
+    background-image: url("./trains.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom right;
+}
+
+/* Layout*/
+.container-main{
+    text-align: center;
+    margin-top: 5rem;
+    position: relative;
+    right: 500px;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-btn{
+    margin-top:1rem;
+    display:flex;
+    flex-direction: column;
+    position: relative;
+    left: 860px;
+}
+
+button{
+    width: 350px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-radius:5px;
+}
+
+
+/* background*/
+#btn-increment{
+    background: darkred;
+}
+
+#btn-save{
+    background:darkgreen;
+}
+
+
+
+
+
+/* Typography */
+body{
+    font-weight:bold;
+    font-family:'Lato', sans-serif;
+}
+
+h1,
+h2{
+    font-size: 3rem;
+}
+
+h1{
+    margin-bottom: 0.5rem;
+}
+h2{
+    margin-top: 0;
+    margin-bottom:2rem;
+}
+h3{
+    font-size:2rem;
+}
+
+button{
+    font-size: 2rem;
+    color:white;
+}
